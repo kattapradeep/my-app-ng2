@@ -9,8 +9,8 @@ import { SharedModule } from '../shared/shared.module';
   imports: [
     CommonModule,
     RouterModule.forChild([
-      {path:'', redirectTo:'products', pathMatch:'full'},
-      {path:'products', component: ProductComponent }
+      {path:'', redirectTo:'list', pathMatch:'full'},
+      {path:'list', component: ProductComponent }
     ]),
     SharedModule
   ],
